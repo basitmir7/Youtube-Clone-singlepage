@@ -1,0 +1,791 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald'");
+html,
+body {
+  background: rgb(22, 22, 22);
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background: rgb(22, 22, 22);
+}
+
+.navbar {
+  height: 8%;
+  background: rgb(39, 39, 39);
+
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* css fro navbar */
+
+.header-section {
+  width: 20%;
+  display: flex;
+}
+
+.menu {
+  width: 25%;
+}
+.logo {
+  width: 50%;
+  display: flex;
+}
+.logo-text {
+  font-family: "Oswald", sans-serif;
+  margin-top: 13%;
+  transform: scaleY(1.5);
+  margin-left: 2%;
+  font-weight: 700;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  color: white;
+  font-size: 16px;
+}
+
+.logo i {
+  font-size: 33px;
+  margin-top: 8%;
+  transform: scale(0.92);
+  color: rgb(245, 21, 21);
+}
+
+.menu i {
+  font-size: 20px;
+  margin-left: 32%;
+  margin-top: 23%;
+  transform: scaleX(1.2);
+  color: white;
+  cursor: pointer;
+}
+
+/* css for search section */
+.search-section {
+  width: 51%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icons-section {
+  width: 19%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search {
+  width: 84%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search input {
+  width: 81%;
+  height: 50.5%;
+  margin-right: 1%;
+  margin-top: 2.29%;
+  background: rgb(22, 22, 22);
+  border: 1.43px solid rgb(65, 64, 64);
+  color: rgb(224, 224, 224);
+  font-family: sans-serif;
+  border-radius: 2px;
+}
+
+.search input:focus {
+  outline: 0.8px solid rgb(3, 97, 206);
+}
+
+.search button {
+  width: 9%;
+  transform: scaleY(0.512);
+  margin-left: -1%;
+
+  background: rgb(65, 64, 64);
+  border: none;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.search button i {
+  font-size: 28px;
+  transform: scaleX(0.5);
+  color: rgb(122, 122, 122);
+}
+
+.search button i:hover {
+  color: rgb(153, 152, 152);
+}
+.microphone {
+  width: 9%;
+  border-radius: 53%;
+  height: 56%;
+  margin-top: 1.8%;
+  /* margin-top: 2%; */
+  /* display: block; */
+  /* background: blue; */
+  transform: scaleX(0.47);
+  background: rgb(27, 27, 27);
+  margin-left: -1.2%;
+  cursor: pointer;
+}
+.microphone i {
+  font-size: 21px;
+  transform: scaleX(1.7);
+  margin-left: 41%;
+  margin-top: 10%;
+  color: white;
+}
+
+/* css for icons section */
+
+.icon {
+  width: 18%;
+  cursor: pointer;
+}
+
+.icon i {
+  color: white;
+  font-size: 17px;
+  margin-top: 37%;
+}
+
+.usericon {
+  width: 64%;
+  height: 59%;
+  background: rgb(75, 156, 42);
+  border-radius: 100%;
+  margin-top: 18.5%;
+  display: flex;
+}
+
+.usericon p {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 20%;
+  color: white;
+}
+
+/* css for main body */
+
+.main-body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.center-body {
+  width: 90%;
+  background: rgb(22, 22, 22);
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+
+/* css fro video side section */
+.firstsection {
+  width: 67%;
+  background: rgb(22, 22, 22);
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Video {
+  height: 68%;
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+}
+.video-about {
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  color: rgb(243, 241, 241);
+}
+
+.v_abt {
+  height: 72%;
+  display: flex;
+}
+
+.video-about-text-1 {
+  height: 8%;
+  font-family: "Oswald";
+  font-size: 18px;
+  letter-spacing: 0.3px;
+}
+.video-about-text-2 {
+  font-family: "Oswald";
+  letter-spacing: 0.3;
+  width: 50%;
+  font-weight: lighter;
+}
+.control-icons {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.c-icons {
+  width: 18%;
+  height: 55%;
+  margin-top: 9%;
+  display: flex;
+  justify-content: flex-end;
+  color: rgb(129, 129, 129);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.c-icons p {
+  font-size: 15px;
+  width: 70%;
+  margin-top: 1%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Oswald";
+}
+
+.c-icons i {
+  font-size: 18px;
+  width: 30%;
+  margin-top: 5.5%;
+}
+
+.video-user {
+  height: 7.5%;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  border: 0.2px solid rgb(61 61 61);
+  border-radius: 4.8px;
+}
+
+.user-name {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-name img {
+  border-radius: 100%;
+  width: 16%;
+  transform: scale(0.76);
+  cursor: pointer;
+}
+
+.user-name p {
+  width: 79%;
+  /* font-size: 15px; */
+  margin-top: 1.3%;
+  font-family: "Oswald";
+  margin-left: 2%;
+  margin-left: 3%;
+  /* color: white; */
+  cursor: pointer;
+}
+
+.subscribe-btn button {
+  height: 70%;
+  width: 76%;
+  background: rgb(233, 20, 20);
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin-top: 4%;
+  margin-left: 19%;
+  font-family: "Oswald";
+  color: white;
+  cursor: pointer;
+}
+
+/* css for comments section */
+
+.comments {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 59%;
+  margin-left: 5%;
+}
+.comments-header {
+  display: flex;
+}
+.comments-header h5 i {
+  transform: rotate3d(26, -26, 5, 168deg);
+}
+
+.comments-header h5 {
+  font-size: 17px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.cmnt {
+  display: flex;
+  flex-direction: column;
+}
+.cmnt h5 {
+  height: 5%;
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+  font-family: "Oswald";
+}
+.cmnt p {
+  height: auto;
+  margin-top: -1%;
+  font-size: 14px;
+  color: white;
+  font-family: "Oswald";
+  font-weight: lighter;
+}
+
+.cmnt h6 {
+  margin-top: -1%;
+  color: rgb(131, 131, 131);
+  text-transform: uppercase;
+  font-size: 13.6px;
+  font-weight: bold;
+}
+
+.cmnt h6 i {
+  margin: 0 2%;
+  font-size: 14px;
+}
+.text-area {
+  display: flex;
+}
+.text-area input {
+  width: 91%;
+  background: rgb(22, 22, 22);
+  outline: 0;
+  border-width: 0 0 0.7px;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.commenticon {
+  width: 6%;
+  height: 32%;
+  background: rgb(75, 156, 42);
+  border-radius: 100%;
+  margin-top: -0.5%;
+  display: flex;
+  transform: scale(0.75);
+}
+.commenticon p {
+  margin-left: 36%;
+  color: white;
+  font-size: 15px;
+}
+
+/* css for second section */
+.secondsection {
+  width: 31.5%;
+  background: rgb(22, 22, 22);
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.advertize {
+  margin-bottom: 12%;
+}
+
+.advertize img {
+  width: 100%;
+}
+
+.related-videos {
+  width: 100%;
+  height: 15%;
+  background: rgb(22, 22, 22);
+
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rv-img {
+  width: 44%;
+}
+
+.rv-img img {
+  width: 100%;
+  height: 100%;
+}
+.rv-about {
+  width: 53%;
+  display: flex;
+  flex-direction: column;
+}
+
+.abt-main {
+  height: 45%;
+  font-size: 15px;
+
+  font-weight: lighter;
+  font-family: "Oswald";
+  color: white;
+}
+
+.abt-second {
+  height: 55%;
+  font-size: 13px;
+  font-weight: lighter;
+  color: rgb(131, 131, 131);
+  font-family: "Oswald", sans-serif;
+}
+
+.time {
+  height: 17px;
+  width: 38px;
+  border-radius: 2px;
+  z-index: 1;
+  background: black;
+  margin-left: 76%;
+  margin-top: -21px;
+  position: relative;
+  opacity: 0.82;
+  color: white;
+  font-size: 11px;
+}
+
+/* sidebar css */
+
+.side-bar {
+  z-index: 4;
+  position: relative;
+  height: 102%;
+  background: rgb(37, 37, 37);
+  width: 17%;
+  top: 53%;
+  top: -158.3%;
+  display: flex;
+  flex-direction: column;
+  /* transform: translateX(-100%); */
+  left: -18%;
+}
+
+.sidebar-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+}
+
+.sidebar-contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.one {
+  height: 22%;
+}
+.two {
+  height: 30%;
+}
+.three {
+  flex-grow: 1;
+}
+
+.sidebar-options {
+  width: 90%;
+  height: 30%;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar-options i {
+  margin-left: 12%;
+  margin-right: 13%;
+  font-size: 19px;
+  color: rgb(148, 148, 148);
+}
+
+#options {
+  height: 16%;
+}
+
+/* css for sidebar header */
+
+.sidebar-header {
+  width: 100%;
+  height: 8.47%;
+  width: 100%;
+  height: 7.92%;
+  display: flex;
+  border-bottom: 1.1px solid rgb(112, 111, 111);
+}
+
+.sidebar-menu {
+  width: 22%;
+}
+
+.sidebar-menu i {
+  font-size: 22px;
+  transform: scaleX(1.2);
+  margin: 16px 16px;
+  color: white;
+  cursor: pointer;
+}
+.sidebar-logo {
+  flex-grow: 1;
+  display: flex;
+}
+
+.sidebar-icon i {
+  font-size: 33px;
+  margin-top: 28%;
+  color: rgb(245, 21, 21);
+  cursor: pointer;
+}
+.sidebar-name {
+  margin-top: 10%;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+  transform: scaleY(1.5);
+  margin-left: 2%;
+  font-weight: 700;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  color: white;
+  margin-left: -1%;
+}
+
+/* hover properties */
+
+.sidebar-options:hover {
+  background: rgb(80, 80, 80);
+  transition: 30ms;
+}
+
+.hover-flex {
+  display: flex;
+  background: transparent;
+  width: 37%;
+  top: -253%;
+  left: 61%;
+  z-index: 3;
+  height: 4%;
+  position: relative;
+  border-radius: 3px;
+  justify-content: space-between;
+  opacity: 0.85;
+}
+
+.hover-flex p {
+  font-size: 12px;
+  color: transparent;
+  margin-top: 3.7%;
+  font-family: sans-serif;
+}
+
+.first-hoverflex {
+  width: 39%;
+  background: transparent;
+  display: flex;
+  margin-left: 6%;
+}
+
+.second-hoverflex {
+  width: 41%;
+  display: flex;
+  background: transparent;
+}
+
+.searchhover {
+  width: 29%;
+  background: #4f4d4d;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.mp {
+  width: 60%;
+  background: #4f4d4d;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.createhover {
+  width: 22%;
+  background: #4f4d4d;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  margin-left: 7%;
+}
+
+.appshover {
+  width: 43%;
+  background: #4f4d4d;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.notificationhover {
+  width: 41%;
+  background: #4f4d4d;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.searchhover p {
+  margin-top: 8%;
+  color: white;
+}
+.createhover p {
+  margin-top: 12%;
+  color: white;
+}
+
+.notificationhover p {
+  margin-top: 7%;
+  color: white;
+}
+
+.appshover p {
+  margin-top: 7%;
+  color: white;
+}
+.mp p {
+  margin-top: 5%;
+  color: white;
+}
+
+/* profilebar css */
+
+.profileBar {
+  z-index: 5;
+  position: relative;
+  height: 75%;
+  background: rgb(37, 37, 37);
+  width: 19%;
+
+  top: -261.5%;
+  flex-direction: column;
+  /* transform: translateX(-100%); */
+  left: 77%;
+  flex-direction: column;
+  outline: 0.7px solid rgb(73, 73, 73);
+  display: none;
+}
+
+.profile-1,
+.profile-2,
+.profile-3 {
+  display: flex;
+  flex-direction: column;
+}
+.profile-1 {
+  height: 18%;
+  border-bottom: 0.7px solid rgb(73, 73, 73);
+}
+.profile-2 {
+  height: 33%;
+  border-bottom: 0.7px solid rgb(73, 73, 73);
+}
+.profile-3 {
+  flex-grow: 1;
+}
+
+.user-p {
+  height: 66%;
+  display: flex;
+  font-family: "Oswald", sans-serif;
+}
+
+.p-pic {
+  width: 14%;
+  height: 59%;
+  margin-left: 4%;
+  background: rgb(75, 156, 42);
+  border-radius: 100%;
+  margin-top: 5.5%;
+  display: flex;
+  justify-content: center;
+}
+
+.p-pic p {
+  margin-top: 20%;
+  color: white;
+}
+.p-details {
+  flex-grow: 1;
+}
+.p-details p {
+  margin-left: 8%;
+  color: white;
+  font-size: 16px;
+  margin-top: 6%;
+}
+
+.text-user {
+  flex-grow: 1;
+}
+
+.text-user p {
+  margin-left: 24.7%;
+  margin-top: 0%;
+  font-size: 14px;
+  color: rgb(39, 136, 247);
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.profilebar-contents1 {
+  height: 25%;
+
+  width: 100%;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.profilebar-contents1 i {
+  margin-left: 10%;
+  margin-right: 7%;
+  margin-top: 5.5%;
+  font-size: 22px;
+  color: rgb(148, 148, 148);
+}
+
+.profile-contents2 {
+  height: 20%;
+
+  width: 100%;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.profile-contents2 i {
+  margin-left: 10%;
+  margin-right: 7%;
+  margin-top: 6%;
+  font-size: 22px;
+  color: rgb(148, 148, 148);
+}
+
+.profile-contents2:hover {
+  background: rgb(80, 80, 80);
+}
+.profilebar-contents1:hover {
+  background: rgb(80, 80, 80);
+}
