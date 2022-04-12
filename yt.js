@@ -2,7 +2,7 @@ openSidebar = () => {
   var sideBar = document.getElementById("sidebar");
   var main = document.getElementById("Main");
 
-  sideBar.style.left = "0%";
+  sideBar.style.transform = "translateX(0)";
   main.style.opacity = "0.7";
   sideBar.style.transition = "left 0.3s";
 };
@@ -11,7 +11,7 @@ closeSidebar = () => {
   var sideBar = document.getElementById("sidebar");
   var main = document.getElementById("Main");
 
-  sideBar.style.left = "-18%";
+  sideBar.style.transform = "translateX(-100%)";
   main.style.opacity = "1";
   sideBar.style.transition = "left 0.3s";
 };
