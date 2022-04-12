@@ -1,0 +1,265 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="yt.css" />
+    <script type="text/javascript" src="./yt.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Oswald"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+
+   
+
+    <!-- main ui -->
+    <div class="main" id="Main" >
+      <!-- navbar here -->
+      <div class="navbar">
+        <div class="header-section">
+          <div class="menu"><i class="fa fa-bars" onclick="openSidebar()"></i></div>
+          <div class="logo">
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <div class="logo-text">YouTube</div>
+          </div>
+        </div>
+        <div class="search-section">
+          <div class="search">
+            <input type="text" />
+            <button onmouseover="textonSearch()" onmouseout="textoffSearch()"><i class="fa fa-search"></i></button>
+          </div>
+           <div class="microphone"  id="micro-phone"  onmouseover="textonMic()" onmouseout="textoffMic()"><i class="fa fa-microphone"></i></div> 
+        </div>
+
+        <div class="icons-section">
+          <div class="icon"><i class="fas fa-video"  onmouseover="textonCreate()"  onmouseout="textoffCreate()"></i></div>
+
+          <div class="icon" onmouseover="textonApps()" onmouseout="textoffApps()"><i class="fas fa-th"></i></div>
+          <div class="icon" onmouseover="textonNoti()" onmouseout="textoffNoti()"><i class="fas fa-bell"></i></div>
+          <div class="icon">
+            <div class="usericon" onclick="openProfilebar()"><p>B</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- mainbody here -->
+
+      <div class="main-body">
+        <div class="center-body">
+          <div class="firstsection">
+            <div class="Video">
+              <iframe
+                src="https://www.youtube.com/embed/watch?v=SPAfePgHlUMQ"
+                frameborder="0"
+              ></iframe>
+            </div>
+            <div class="video-about">
+              <h4 class="video-about-text-1">HP VICTUS // UNBOXING</h4>
+              <div class="v_abt">
+                <p class="video-about-text-2">
+                  <strong> 7,933 views • Aug 15, 2021 •</strong> I'll be
+                  unboxing the 2021 HP Victus to ...
+                  <strong style="color: rgb(129, 129, 129);"
+                    >&nbsp SHOW MORE</strong
+                  >
+                </p>
+                <div class="control-icons">
+                  <div class="c-icons" ><i class="fas fa-thumbs-up"></i><p>311</p></div>
+                  <div class="c-icons" style="width: 13%;"><i class="fas fa-thumbs-down" style="width: 60%;"></i><p>7</p></div>
+                  <div class="c-icons" style="width: 19%;"><i class="fas fa-share"></i><p>Share</p></div>
+                  <div class="c-icons" style="width: 14%; ">
+                   <i class="fas fa-bars" style="width: 36%;"></i></i><p>Save</p>
+                  </div>
+                  <div class="c-icons" style="width: 12%;"><i class="fas fa-ellipsis-h" style="width: 50%;"></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="video-user">
+              <div class="user-name" style="width: 60%;">
+                  <img src="./assets/images.jpg">
+                  <p style="color: grey; font-size: 13px;"><strong style="color: white; font-size: 16px;">Ben G Crazy</strong><br> 53.1k subscribers </p>
+
+              </div>
+              <div class="subscribe-btn" style="width: 35%;">
+                      <button>subscribe</button>             
+              </div>
+            </div>
+            
+           
+          </div>
+
+         <!-- second section here -->
+          <div class="secondsection">
+              <div class="advertize"><img src="./assets/channels4_banner.jpg"> </div>
+              <div class="related-videos">
+                  <div class="rv-img"><img src="./assets/1y1.jpg"><div class="time"> 21:25</div></div>
+                  <div class="rv-about">
+                     <div class="abt-main">
+                      
+                        ASUS TUF DASH F15 - Full Review | I7-11370H RTX.. 
+                     </div>
+                     <div class="abt-second">
+                      Venom's Tech <br>
+                       251k views . 1 month ago
+                     </div>
+                  </div>
+              </div>
+              <div class="related-videos">
+                <div class="rv-img"><img src="./assets/y2.jpg"><div class="time"> 30:45</div></div>
+                <div class="rv-about">
+                      <div class="abt-main">A Day with Venom's Tech | 100k Studio Tour🔥
+                        </div>
+                     <div class="abt-second">Venom's Tech<br>
+                        195k views . 2 months ago</div>
+                </div>
+              </div>
+              <div class="related-videos">
+                <div class="rv-img"><img src="./assets/y3.jpg"><div class="time"> 15:22</div></div>
+                <div class="rv-about">
+                    <div class="abt-main">INTEL VS RYZEN 🔥 Which is better ??? Comparison
+                     </div>
+                     <div class="abt-second">Tech Source<br> 1M views . 1 month ago</div>
+                </div>
+              </div>
+              <div class="related-videos">
+                <div class="rv-img"><img src="./assets/y5.jpg"><div class="time"> 17:03</div></div>
+                <div class="rv-about">
+                  <div class="abt-main">Samsung Galaxy Z Flip 3 Impressions: Design Refresh!
+                    
+                   </div>
+                     <div class="abt-second">Marques Brownlee<br> 3.5M views . 3 months ago</div>
+                </div>
+              </div>
+              
+
+          </div>
+
+          
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="comments">
+
+      <div class="comments-header"> 
+          <h5>1539 comments</h5>  <h5 style="    margin-left: 5%;"><i class="fas fa-signal" ></i>&nbsp SORT BY</h5>
+      </div>
+      <div class="text-area"><div class="commenticon"><p>B</p></div> <input type="text" placeholder="comment publically as.."/></div>
+     <div class="cmnt"><h5>Mark Davidson<small style="color: rgb(131, 131, 131);">&nbsp 24 min ago</small></h5><p>This is my new favorite channel. Even before the inclusion of English subtitles, I’ve enjoyed your A15 videos. Please continue the great work!</p> <h6><i class="fas fa-thumbs-up"></i><i class="fas fa-thumbs-down"></i>reply</h6></div>
+     <div class="cmnt"><h5>
+      MacTavish<small style="color: rgb(131, 131, 131);">&nbsp 2 days ago</small></h5><p>Thank you so much, was really waiting for a proper review by someone on this laptop.</p> <h6><i class="fas fa-thumbs-up"></i><i class="fas fa-thumbs-down"></i>reply</h6></div>
+     <div class="cmnt"><h5>Harsha Vardhan<small style="color: rgb(131, 131, 131);">&nbsp 2 weeks ago</small></h5><p>Don't know why but love these man laptop reviews ❤️</p> <h6><i class="fas fa-thumbs-up"></i><i class="fas fa-thumbs-down"></i>reply</h6></div>
+     <div class="cmnt"><h5>umit Tripathi Vlogs<small style="color: rgb(131, 131, 131);">&nbsp 4 weeks ago</small></h5><p>I bought it 2months back performance is great.. best part i liked is the build quality its awesome... go for it 👌👌🙌</p> <h6><i class="fas fa-thumbs-up"></i><i class="fas fa-thumbs-down"></i>reply</h6></div>
+    
+   </div>
+    
+
+   <!-- sidebar -->
+
+   <div id="sidebar" class="side-bar" >
+
+            <div class="sidebar-header">
+
+               <div class="sidebar-menu" id="s-menu"><i class="fa fa-bars" onclick="closeSidebar()"></i></div>
+               <div class="sidebar-logo">
+                 <div class="sidebar-icon" style="width: 20%;"><i class="fa fa-youtube-play" aria-hidden="true"></i></div>
+                 <div class="sidebar-name" style="width: 60%;">YouTube</div>
+               </div>
+
+            </div>
+
+
+             <!-- sidebar body -->
+
+
+            <div class="sidebar-body">
+               <div class="sidebar-contents one">
+                 <div class="sidebar-options"><i class="fas fa-home"></i>Home</div>
+                 <div class="sidebar-options"><i class="fas fa-compass"></i>explore</div>
+                 <div class="sidebar-options" style="border-bottom: 1.1px solid rgb(112, 111, 111);"><i class="fa fa-youtube-play" ></i>sunscriptions</div>
+               </div>
+               <div class="sidebar-contents two">
+                 <div class="sidebar-options"><i class="fas fa-play-circle"></i>library</div>
+                 <div class="sidebar-options"><i class="fas fa-history"></i>history</div>
+                 <div class="sidebar-options"><i class="fas fa-clock"></i>watch later</div>
+                 <div class="sidebar-options" style="border-bottom: 1.1px solid rgb(112, 111, 111);"><i class="fas fa-thumbs-up"></i>liked videos</div>
+               </div>
+               <div class="sidebar-contents three">
+                 <div class="ab" style="height: 12%;  margin-left: 13%;  margin-top: 7%; text-transform: uppercase;color:rgb(131, 131, 131) ;font-weight: bold;">more from youtube</div>
+                 <div class="sidebar-options" id="options"><i class="fas fa-film"></i>movies</div>
+                 <div class="sidebar-options" id="options"><i class="fas fa-gamepad"></i>gaming </div>
+                 <div class="sidebar-options" id="options"><i class="fas fa-podcast"></i>live</div>
+                 <div class="sidebar-options" id="options"><i class="fas fa-cog"></i>settings</div>
+                 <div class="sidebar-options" id="options"><i class="fas fa-question-circle"></i>help</div>
+               </div>
+            </div>
+    
+     </div>
+
+
+     <!-- hover elemts -->
+      <div   id="hoverflex" class="hover-flex">
+
+        <div class="first-hoverflex">
+            <div id="search-hover"> <p>Search</p></div>
+            <div id="microphone-hover"><p>search with your voice</p></div>
+        </div>
+        <div class="second-hoverflex">
+            <div id="create-hover" ><p>create</p></div>
+            <div id="apps-hover" ><p>youtube apps</p></div>
+            <div id="notification-hover" ><p>notifications</p></div>
+        </div>
+         
+      </div>
+
+
+      <!-- profile bar -->
+      <div  id="profile-bar" style="display: none;">
+
+        <div class="profile-1">
+          <div class="user-p">
+             <div class="p-pic"><p>B</p></div>
+             <div class="p-details"><p>Hello there <br> <small>Hellothere12345@gamil.com</small></p></div>
+          </div>
+          <div class="text-user"><p>Manage your google account</p></div>
+        </div>
+        <div class="profile-2">
+
+           <div class="profilebar-contents1">
+            <i class="fas fa-user-circle"></i> Create a channel
+           </div>
+           <div class="profilebar-contents1">
+            <i class="fas fa-cog"></i> Youtube Studio
+           </div>
+           <div class="profilebar-contents1">
+            <i class="fas fa-address-card"></i> Switch Account <i class="fas fa-chevron-right"  style="margin-left: 26.3%;"></i>
+           </div>
+           <div class="profilebar-contents1">
+            <i class="fas fa-sign-in-alt"></i> Sign out
+           </div>
+        </div>
+        <div class="profile-3">
+          <div class="profile-contents2"><i class="fas fa-moon"></i> Appearence : Dark<i class="fas fa-chevron-right"  style="margin-left: 23.5%;"></i></div>
+          <div class="profile-contents2"><i class="fas fa-language"></i>Language : English<i class="fas fa-chevron-right"   style="margin-left: 23%;"></i></div>
+          <div class="profile-contents2"><i class="fas fa-globe"></i>Location : India<i class="fas fa-chevron-right"  style="margin-left: 31%;"></i></div>
+          <div class="profile-contents2"><i class="fas fa-info-circle"></i>Help</div>
+          <div class="profile-contents2"><i class="fas fa-keyboard"></i>Keyboard shortcuts</div>
+        </div>
+
+      </div>
+  </body>
+</html>
